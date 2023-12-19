@@ -1,0 +1,13 @@
+.text-for-editing {
+  overflow: hidden;
+
+  abbr {
+    text-decoration: none;
+  }
+  span {
+    &.unresolved {
+      color: red;
+      cursor: cell;
+    }
+  }
+}
