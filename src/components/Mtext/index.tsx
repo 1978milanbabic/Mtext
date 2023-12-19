@@ -16,13 +16,12 @@ import './Mtext.scss';
 
 type Props = {
   children?: ReactNode | string | null;
-  as: string;
   style?: CSSProperties | null;
   setNmbToSolve: Dispatch<SetStateAction<number>>;
   abbrText?: string;
 };
 
-const Mtext = ({ children, as, style, setNmbToSolve, abbrText }: Props) => {
+const Mtext = ({ children, style, setNmbToSolve, abbrText }: Props) => {
   const uniqueId = uuid();
   const [initionalContent, setInitionalcontent] = useState<ReactNode | null>(
     null,

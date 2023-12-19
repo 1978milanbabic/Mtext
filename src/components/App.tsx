@@ -37,7 +37,6 @@ const App: React.FC = () => {
   return (
     <div>
       <Mtext
-        as={'catch'}
         style={styles_1}
         setNmbToSolve={setNmbToSolve}
         abbrText={'Warning text!!! Warning text!!! Warning text!!!'}
@@ -51,7 +50,6 @@ const App: React.FC = () => {
         dolore eu fugiat nulla pariatur.
       </Mtext>
       <Mtext
-        as={'catch'}
         style={styles_2}
         setNmbToSolve={setNmbToSolve}
         abbrText={'Warning text!!! Warning text!!! Warning text!!!'}
